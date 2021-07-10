@@ -1,0 +1,11 @@
+#container {
+	margin: 100px;
+}
+
+#title {
+  margin-bottom: 50px;
+}
+
+#fits, .fit, #loading {
+	width: 500px;
+}
