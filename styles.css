@@ -6,10 +6,23 @@
   margin-bottom: 50px;
 }
 
-#fits, .fit, #loading {
+#fits, #loading {
 	width: 500px;
 }
+#fits {
+	border-left: solid 1px lightgray;
+  border-right: solid 1px lightgray;
+	border-bottom: solid 1px lightgray;
+}
 
+.fit-row {
+	border-top: solid 1px lightgray;
+}
+
+.fit {
+	width: 450px;
+	padding: 10px;
+}
 .fit:hover {
 	cursor: pointer;
 }
@@ -32,6 +45,23 @@
 	position: relative;
 	top: 8px;
 	left: 50px;
+}
+
+.copy {
+	float: right;
+	position: relative;
+  top: -42px;
+  left: -12px;
+}
+.copy:hover {
+	cursor: pointer;
+}
+
+.copied {
+	float: right;
+	position: relative;
+  top: -42px;
+  left: -12px;
 }
 
 #color-mode {

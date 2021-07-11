@@ -19,16 +19,22 @@ var fits = {};
 
       if (fitData.img) {
         fits_list += `
-          <li class="collection-item modal-trigger fit with-img" id="${toId(fitName)}" href="#modal-${toId(fitName)}">
-            <img src="${fitData.img}" class="circle"/>
-            <span>${fitName}<span>
-          </li>
+          <div display="flex" class="fit-row">
+            <div class="modal-trigger fit with-img" id="${toId(fitName)}" href="#modal-${toId(fitName)}">
+              <img src="${fitData.img}" class="circle"/>
+              <span>${fitName}</span>
+            </div>
+            <div id="copy-${toId(fitName)}"><i class="material-icons copy" onclick="copyFitFromList('copy-${toId(fitName)}', \`${fit_text}\`)">content_paste</i></div>
+          </div>
         `;
       } else {
         fits_list += `
-          <li class="collection-item modal-trigger fit no-img" id="${toId(fitName)}" href="#modal-${toId(fitName)}">
-            <span>${fitName}<span>
-          </li>
+          <div display="flex" class="fit-row">
+            <div class="modal-trigger fit no-img" id="${toId(fitName)}" href="#modal-${toId(fitName)}">
+              <span>${fitName}</span>
+            </div>
+            <div id="copy-${toId(fitName)}"><i class="material-icons copy" onclick="copyFitFromList('copy-${toId(fitName)}', \`${fit_text}\`)">content_paste</i></div>
+          </div>
         `;
       }      
 
@@ -44,7 +50,7 @@ var fits = {};
             <p>${fit_html}</p>
           </div>
           <div class="modal-footer">
-            <button class="waves-effect waves-teal btn-flat" id="modal-copy-${toId(fitName)}" onclick="copyFit('modal-copy-${toId(fitName)}', \`${fit_text}\`)">Copy</button>
+            <button class="waves-effect waves-teal btn-flat" id="modal-copy-${toId(fitName)}" onclick="copyFitFromModal('modal-copy-${toId(fitName)}', \`${fit_text}\`)">Copy</button>
             <button class="modal-close waves-effect waves-teal btn-flat">Close</button>
           </div>
         </div>
@@ -67,13 +73,23 @@ var fits = {};
   });
 
   console.log(`
-Hello! Interested in helping developing this website?
+Hello! Interested in helping develop this website?
 Contact Mikayla Holden in-game or on Discord.
   `);
 })();
 
-const copyFit = (id, fit) => {
-  navigator.clipboard.writeText(fit);
+const copyFitFromList = (id, fit_text) => {
+  navigator.clipboard.writeText(fit_text);
+  $(`#${id}`).html('<i class="material-icons copied">check</i>');
+  $(`#${id}`).css({ color: '#26a69a' });
+  setTimeout(() => {
+    $(`#${id}`).html(`<i class="material-icons copy" onclick="copyFitFromList('${id}', \`${fit_text}\`)">content_paste</i>`);
+    $(`#${id}`).css({ color: 'inherit' });
+  }, 3000);
+}
+
+const copyFitFromModal = (id, fit_text) => {
+  navigator.clipboard.writeText(fit_text);
   $(`#${id}`).html('Copied!');
   setTimeout(() => {
     $(`#${id}`).html('Copy');
@@ -118,10 +134,15 @@ const toggleColorMode = () => {
 
 const changeFitColor = (fits, bgIn, textIn, bgOut, textOut) => {
   for (const fitName in fits) {
-    const element = $(`#${toId(fitName)}`);
-    element.hover(
-      () => element.css({ backgroundColor: bgIn, color: textIn }),
-      () => element.css({ backgroundColor: bgOut, color: textOut })
+    const row = $(`#${toId(fitName)}`);
+    row.hover(
+      () => row.css({ backgroundColor: bgIn, color: textIn }),
+      () => row.css({ backgroundColor: bgOut, color: textOut })
+    );
+    const copy = $(`#copy-${toId(fitName)}`);
+    copy.hover(
+      () => copy.css({ backgroundColor: bgIn, color: textIn }),
+      () => copy.css({ backgroundColor: bgOut, color: textOut })
     );
   }
 };
