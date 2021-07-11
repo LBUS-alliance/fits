@@ -13,21 +13,21 @@ var fits = {};
     let fits_list = '';
     let modals = '';
 
-    for (const fitId in fits) {
-      const fitData = fits[fitId];
+    for (const fitName in fits) {
+      const fitData = fits[fitName];
       let fit_text = fitData.fit;
 
       if (fitData.img) {
         fits_list += `
-          <li class="collection-item modal-trigger fit with-img" id="${fitId}" href="#modal-${fitId}">
+          <li class="collection-item modal-trigger fit with-img" id="${toId(fitName)}" href="#modal-${toId(fitName)}">
             <img src="${fitData.img}" class="circle"/>
-            <span>${fitId}<span>
+            <span>${fitName}<span>
           </li>
         `;
       } else {
         fits_list += `
-          <li class="collection-item modal-trigger fit no-img" id="${fitId}" href="#modal-${fitId}">
-            <span>${fitId}<span>
+          <li class="collection-item modal-trigger fit no-img" id="${toId(fitName)}" href="#modal-${toId(fitName)}">
+            <span>${fitName}<span>
           </li>
         `;
       }      
@@ -38,13 +38,13 @@ var fits = {};
       }
 
       modals += `
-        <div id="modal-${fitId}" class="modal modal-fixed-footer">
+        <div id="modal-${toId(fitName)}" class="modal modal-fixed-footer">
           <div class="modal-content">
-            <h4>${fitId}</h4>
+            <h4>${fitName}</h4>
             <p>${fit_html}</p>
           </div>
           <div class="modal-footer">
-            <button class="waves-effect waves-teal btn-flat" id="modal-copy-${fitId}" onclick="copyFit('modal-copy-${fitId}', \`${fit_text}\`)">Copy</button>
+            <button class="waves-effect waves-teal btn-flat" id="modal-copy-${toId(fitName)}" onclick="copyFit('modal-copy-${toId(fitName)}', \`${fit_text}\`)">Copy</button>
             <button class="modal-close waves-effect waves-teal btn-flat">Close</button>
           </div>
         </div>
@@ -65,6 +65,11 @@ var fits = {};
     $('#modals').show();
     $('.modal').modal();
   });
+
+  console.log(`
+Hello! Interested in helping developing this website?
+Contact Mikayla Holden in-game or on Discord.
+  `);
 })();
 
 const copyFit = (id, fit) => {
@@ -112,11 +117,15 @@ const toggleColorMode = () => {
 };
 
 const changeFitColor = (fits, bgIn, textIn, bgOut, textOut) => {
-  for (const fit in fits) {
-    const element = $(`#${fit}`);
+  for (const fitName in fits) {
+    const element = $(`#${toId(fitName)}`);
     element.hover(
       () => element.css({ backgroundColor: bgIn, color: textIn }),
       () => element.css({ backgroundColor: bgOut, color: textOut })
     );
   }
 };
+
+const toId = name => {
+  return name.replace(' ', '-');
+}
