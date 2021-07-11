@@ -1,271 +1,287 @@
-Raven: |-
-  [Raven, [LBUS] Defender Raven]
-  Damage Control II
-  Ballistic Control System II
-  Ballistic Control System II
-  Ballistic Control System II
-  Missile Guidance Enhancer II
+Raven:
+  img: https://wiki.eveuniversity.org/images/9/9a/Raven.jpg
+  fit: |-
+    [Raven, [LBUS] Defender Raven]
+    Damage Control II
+    Ballistic Control System II
+    Ballistic Control System II
+    Ballistic Control System II
+    Missile Guidance Enhancer II
 
-  Sensor Booster II
-  Sensor Booster II
-  Large Shield Extender II
-  Large Shield Extender II
-  Multispectrum Shield Hardener II
-  Missile Guidance Computer II
-  Large Micro Jump Drive
+    Sensor Booster II
+    Sensor Booster II
+    Large Shield Extender II
+    Large Shield Extender II
+    Multispectrum Shield Hardener II
+    Missile Guidance Computer II
+    Large Micro Jump Drive
 
-  'Arbalest' Cruise Launcher I
-  'Arbalest' Cruise Launcher I
-  'Arbalest' Cruise Launcher I
-  'Arbalest' Cruise Launcher I
-  'Arbalest' Cruise Launcher I
-  'Arbalest' Cruise Launcher I
-  Drone Link Augmentor II
+    'Arbalest' Cruise Launcher I
+    'Arbalest' Cruise Launcher I
+    'Arbalest' Cruise Launcher I
+    'Arbalest' Cruise Launcher I
+    'Arbalest' Cruise Launcher I
+    'Arbalest' Cruise Launcher I
+    Drone Link Augmentor II
 
-  Large Core Defense Field Extender I
-  Large Core Defense Field Extender I
-  Large Core Defense Field Extender I
-
-
-
-  Hobgoblin II x4
-  Hammerhead II x2
-  Warrior II x4
-  Acolyte II x2
-
-  Caldari Navy Scourge Cruise Missile x2000
-  Caldari Navy Nova Cruise Missile x2000
-  Targeting Range Script x2
-  Caldari Navy Mjolnir Cruise Missile x2000
-  Missile Range Script x1
-  Caldari Navy Inferno Cruise Missile x2000
-
-Ferox: |-
-  [Ferox, [LBUS] Ferox]
-  Damage Control II
-  Magnetic Field Stabilizer II
-  Magnetic Field Stabilizer II
-  Magnetic Field Stabilizer II
-
-  Small Capacitor Booster II
-  Large Shield Extender II
-  Large Shield Extender II
-  Multispectrum Shield Hardener II
-  50MN Quad LiF Restrained Microwarpdrive
-  EM Shield Hardener II
-
-  250mm Railgun II
-  250mm Railgun II
-  250mm Railgun II
-  250mm Railgun II
-  250mm Railgun II
-  250mm Railgun II
-  Drone Link Augmentor II
-
-  Medium Ancillary Current Router I
-  Medium Core Defense Field Extender I
-  Medium Thermal Shield Reinforcer II
+    Large Core Defense Field Extender I
+    Large Core Defense Field Extender I
+    Large Core Defense Field Extender I
 
 
 
-  Warrior II x5
+    Hobgoblin II x4
+    Hammerhead II x2
+    Warrior II x4
+    Acolyte II x2
 
-  Javelin M x2000
-  Spike M x2000
-  Navy Cap Booster 400 x31
-  Caldari Navy Antimatter Charge M x1000
-  Caldari Navy Iridium Charge M x1000
-  Caldari Navy Iron Charge M x1000
+    Caldari Navy Scourge Cruise Missile x2000
+    Caldari Navy Nova Cruise Missile x2000
+    Targeting Range Script x2
+    Caldari Navy Mjolnir Cruise Missile x2000
+    Missile Range Script x1
+    Caldari Navy Inferno Cruise Missile x2000
 
-Caracal: |-
-  [Caracal, [LBUS] Caracal T2]
-  Damage Control II
-  Ballistic Control System II
-  Ballistic Control System II
-  Ballistic Control System II
+Ferox:
+  img: https://wiki.eveuniversity.org/images/3/34/Ferox.jpg
+  fit: |-
+    [Ferox, [LBUS] Ferox]
+    Damage Control II
+    Magnetic Field Stabilizer II
+    Magnetic Field Stabilizer II
+    Magnetic Field Stabilizer II
 
-  Large Shield Extender II
-  Large Shield Extender II
-  Multispectrum Shield Hardener II
-  50MN Quad LiF Restrained Microwarpdrive
-  Small Capacitor Booster II
+    Small Capacitor Booster II
+    Large Shield Extender II
+    Large Shield Extender II
+    Multispectrum Shield Hardener II
+    50MN Quad LiF Restrained Microwarpdrive
+    EM Shield Hardener II
 
-  Rapid Light Missile Launcher II
-  Rapid Light Missile Launcher II
-  Rapid Light Missile Launcher II
-  Rapid Light Missile Launcher II
-  Rapid Light Missile Launcher II
+    250mm Railgun II
+    250mm Railgun II
+    250mm Railgun II
+    250mm Railgun II
+    250mm Railgun II
+    250mm Railgun II
+    Drone Link Augmentor II
 
-  Medium Core Defense Field Extender I
-  Medium Core Defense Field Extender I
-  Medium Core Defense Field Extender I
-
-
-
-  Warrior II x2
-
-  Caldari Navy Scourge Light Missile x800
-  Navy Cap Booster 400 x25
-  Caldari Navy Inferno Light Missile x800
-  Scourge Fury Light Missile x1600
-  Nova Fury Light Missile x1600
-  Inferno Fury Light Missile x1600
-  Mjolnir Fury Light Missile x1600
-  Caldari Navy Mjolnir Light Missile x800
-  Caldari Navy Nova Light Missile x800
-
-Scythe: |-
-  [Scythe, [LBUS] Scythe]
-  Damage Control II
-  Capacitor Power Relay II
-  Capacitor Power Relay II
-  Capacitor Power Relay II
-  Capacitor Power Relay II
-
-  Multispectrum Shield Hardener II
-  50MN Quad LiF Restrained Microwarpdrive
-  Cap Recharger II
-  Cap Recharger II
-  Large F-S9 Regolith Compact Shield Extender
-
-  Medium S95a Scoped Remote Shield Booster
-  Medium S95a Scoped Remote Shield Booster
-  Medium S95a Scoped Remote Shield Booster
-
-  Medium EM Shield Reinforcer I
-  Medium Core Defense Field Extender I
-  Medium Core Defense Field Extender I
+    Medium Ancillary Current Router I
+    Medium Core Defense Field Extender I
+    Medium Thermal Shield Reinforcer II
 
 
 
-  Warrior II x1
-  Medium Shield Maintenance Bot I x4
+    Warrior II x5
 
-Cerberus: |-
-  [Cerberus, [LBUS] Cerberus]
-  Ballistic Control System II
-  Ballistic Control System II
-  Ballistic Control System II
-  Assault Damage Control II
+    Javelin M x2000
+    Spike M x2000
+    Navy Cap Booster 400 x31
+    Caldari Navy Antimatter Charge M x1000
+    Caldari Navy Iridium Charge M x1000
+    Caldari Navy Iron Charge M x1000
 
-  50MN Quad LiF Restrained Microwarpdrive
-  Pith C-Type EM Shield Hardener
-  Large Shield Extender II
-  Large Shield Extender II
-  Multispectrum Shield Hardener II
+Caracal:
+  img: https://wiki.eveuniversity.org/images/7/71/Caracal.jpg
+  fit: |-
+    [Caracal, [LBUS] Caracal T2]
+    Damage Control II
+    Ballistic Control System II
+    Ballistic Control System II
+    Ballistic Control System II
 
-  Heavy Missile Launcher II
-  Heavy Missile Launcher II
-  Heavy Missile Launcher II
-  Heavy Missile Launcher II
-  Heavy Missile Launcher II
-  Heavy Missile Launcher II
+    Large Shield Extender II
+    Large Shield Extender II
+    Multispectrum Shield Hardener II
+    50MN Quad LiF Restrained Microwarpdrive
+    Small Capacitor Booster II
 
-  Medium Hydraulic Bay Thrusters II
-  Medium Polycarbon Engine Housing II
+    Rapid Light Missile Launcher II
+    Rapid Light Missile Launcher II
+    Rapid Light Missile Launcher II
+    Rapid Light Missile Launcher II
+    Rapid Light Missile Launcher II
+
+    Medium Core Defense Field Extender I
+    Medium Core Defense Field Extender I
+    Medium Core Defense Field Extender I
 
 
 
+    Warrior II x2
 
-  Caldari Navy Scourge Heavy Missile x1000
-  Caldari Navy Mjolnir Heavy Missile x1000
-  Caldari Navy Nova Heavy Missile x1000
-  Caldari Navy Inferno Heavy Missile x1040
+    Caldari Navy Scourge Light Missile x800
+    Navy Cap Booster 400 x25
+    Caldari Navy Inferno Light Missile x800
+    Scourge Fury Light Missile x1600
+    Nova Fury Light Missile x1600
+    Inferno Fury Light Missile x1600
+    Mjolnir Fury Light Missile x1600
+    Caldari Navy Mjolnir Light Missile x800
+    Caldari Navy Nova Light Missile x800
 
-Jackdaw: |-
-  [Jackdaw, [LBUS] Jackdaw]
-  Nanofiber Internal Structure II
-  Ballistic Control System II
-  Ballistic Control System II
+Scythe:
+  img: https://wiki.eveuniversity.org/images/3/37/Scythe.jpg
+  fit: |-
+    [Scythe, [LBUS] Scythe]
+    Damage Control II
+    Capacitor Power Relay II
+    Capacitor Power Relay II
+    Capacitor Power Relay II
+    Capacitor Power Relay II
 
-  Medium Azeotropic Restrained Shield Extender
-  Missile Guidance Computer II
-  Missile Guidance Computer II
-  5MN Quad LiF Restrained Microwarpdrive
-  EM Shield Amplifier II
+    Multispectrum Shield Hardener II
+    50MN Quad LiF Restrained Microwarpdrive
+    Cap Recharger II
+    Cap Recharger II
+    Large F-S9 Regolith Compact Shield Extender
 
-  Arbalest Compact Light Missile Launcher
-  Arbalest Compact Light Missile Launcher
-  Arbalest Compact Light Missile Launcher
-  Arbalest Compact Light Missile Launcher
-  Arbalest Compact Light Missile Launcher
-  Defender Launcher I
+    Medium S95a Scoped Remote Shield Booster
+    Medium S95a Scoped Remote Shield Booster
+    Medium S95a Scoped Remote Shield Booster
 
-  Small Auxiliary Thrusters I
-  Small Hydraulic Bay Thrusters II
-  Small Rocket Fuel Cache Partition I
+    Medium EM Shield Reinforcer I
+    Medium Core Defense Field Extender I
+    Medium Core Defense Field Extender I
+
+
+
+    Warrior II x1
+    Medium Shield Maintenance Bot I x4
+
+Cerberus:
+  img: https://wiki.eveuniversity.org/images/4/48/Cerberus.jpg
+  fit: |-
+    [Cerberus, [LBUS] Cerberus]
+    Ballistic Control System II
+    Ballistic Control System II
+    Ballistic Control System II
+    Assault Damage Control II
+
+    50MN Quad LiF Restrained Microwarpdrive
+    Pith C-Type EM Shield Hardener
+    Large Shield Extender II
+    Large Shield Extender II
+    Multispectrum Shield Hardener II
+
+    Heavy Missile Launcher II
+    Heavy Missile Launcher II
+    Heavy Missile Launcher II
+    Heavy Missile Launcher II
+    Heavy Missile Launcher II
+    Heavy Missile Launcher II
+
+    Medium Hydraulic Bay Thrusters II
+    Medium Polycarbon Engine Housing II
 
 
 
 
-  Caldari Navy Scourge Light Missile x2000
-  Caldari Navy Inferno Light Missile x2000
-  Missile Range Script x2
-  Defender Missile I x50
-  Scourge Light Missile x2000
-  Inferno Light Missile x2000
-  Mjolnir Light Missile x2000
-  Nova Light Missile x2000
-  Caldari Navy Mjolnir Light Missile x2000
-  Nanite Repair Paste x100
-  Missile Precision Script x2
-  Caldari Navy Nova Light Missile x2000
+    Caldari Navy Scourge Heavy Missile x1000
+    Caldari Navy Mjolnir Heavy Missile x1000
+    Caldari Navy Nova Heavy Missile x1000
+    Caldari Navy Inferno Heavy Missile x1040
 
-Stabber: |-
-  [Stabber,hitandrun]
-  Damage Control II
-  Gyrostabilizer II
-  Gyrostabilizer II
-  Gyrostabilizer II
+Jackdaw:
+  img: https://wiki.eveuniversity.org/images/f/f4/Jackdaw.jpg
+  fit: |-
+    [Jackdaw, [LBUS] Jackdaw]
+    Nanofiber Internal Structure II
+    Ballistic Control System II
+    Ballistic Control System II
 
-  Warp Scrambler II
-  Large Shield Extender II
-  50MN Quad LiF Restrained Microwarpdrive
-  Large Shield Extender II
+    Medium Azeotropic Restrained Shield Extender
+    Missile Guidance Computer II
+    Missile Guidance Computer II
+    5MN Quad LiF Restrained Microwarpdrive
+    EM Shield Amplifier II
 
-  220mm Vulcan AutoCannon I, Republic Fleet Depleted Uranium M x160
-  Small Energy Neutralizer I
-  220mm Vulcan AutoCannon I, Republic Fleet Depleted Uranium M x160
-  Small Energy Neutralizer I
-  220mm Vulcan AutoCannon I, Republic Fleet Depleted Uranium M x160
-  220mm Vulcan AutoCannon I, Republic Fleet Depleted Uranium M x160
+    Arbalest Compact Light Missile Launcher
+    Arbalest Compact Light Missile Launcher
+    Arbalest Compact Light Missile Launcher
+    Arbalest Compact Light Missile Launcher
+    Arbalest Compact Light Missile Launcher
+    Defender Launcher I
 
-  Medium EM Shield Reinforcer I
-  Medium Core Defense Field Extender I
-  Medium Core Defense Field Extender I
-
-
-  Hobgoblin II x5
-
-
-  Republic Fleet Depleted Uranium M x1360
-  Republic Fleet Fusion M x2000
-  Republic Fleet EMP M x941
-
-Basilisk: |-
-  [Basilisk, Basilisk]
-  Damage Control II
-  Reactor Control Unit II
-
-  Pith B-Type EM Shield Hardener
-  Large Shield Extender II
-  Large Shield Extender II
-  Multispectrum Shield Hardener II
-  50MN Quad LiF Restrained Microwarpdrive
-
-  Large S95a Scoped Remote Shield Booster
-  Large S95a Scoped Remote Shield Booster
-  Large Inductive Compact Remote Capacitor Transmitter
-  Large Inductive Compact Remote Capacitor Transmitter
-  Large Murky Compact Remote Shield Booster
-  Large Murky Compact Remote Shield Booster
-
-  Medium Core Defense Field Extender II
-  Medium Core Defense Field Extender II
+    Small Auxiliary Thrusters I
+    Small Hydraulic Bay Thrusters II
+    Small Rocket Fuel Cache Partition I
 
 
 
-  Warrior II x5
 
-  Nanite Repair Paste x200
-  Standard Mindflood Booster x1
+    Caldari Navy Scourge Light Missile x2000
+    Caldari Navy Inferno Light Missile x2000
+    Missile Range Script x2
+    Defender Missile I x50
+    Scourge Light Missile x2000
+    Inferno Light Missile x2000
+    Mjolnir Light Missile x2000
+    Nova Light Missile x2000
+    Caldari Navy Mjolnir Light Missile x2000
+    Nanite Repair Paste x100
+    Missile Precision Script x2
+    Caldari Navy Nova Light Missile x2000
+
+Stabber:
+  img: https://wiki.eveuniversity.org/images/3/31/Stabber.jpg
+  fit: |-
+    [Stabber,hitandrun]
+    Damage Control II
+    Gyrostabilizer II
+    Gyrostabilizer II
+    Gyrostabilizer II
+
+    Warp Scrambler II
+    Large Shield Extender II
+    50MN Quad LiF Restrained Microwarpdrive
+    Large Shield Extender II
+
+    220mm Vulcan AutoCannon I, Republic Fleet Depleted Uranium M x160
+    Small Energy Neutralizer I
+    220mm Vulcan AutoCannon I, Republic Fleet Depleted Uranium M x160
+    Small Energy Neutralizer I
+    220mm Vulcan AutoCannon I, Republic Fleet Depleted Uranium M x160
+    220mm Vulcan AutoCannon I, Republic Fleet Depleted Uranium M x160
+
+    Medium EM Shield Reinforcer I
+    Medium Core Defense Field Extender I
+    Medium Core Defense Field Extender I
+
+
+    Hobgoblin II x5
+
+
+    Republic Fleet Depleted Uranium M x1360
+    Republic Fleet Fusion M x2000
+    Republic Fleet EMP M x941
+
+Basilisk:
+  img: https://wiki.eveuniversity.org/images/9/92/Basilisk.jpg
+  fit: |-
+    [Basilisk, Basilisk]
+    Damage Control II
+    Reactor Control Unit II
+
+    Pith B-Type EM Shield Hardener
+    Large Shield Extender II
+    Large Shield Extender II
+    Multispectrum Shield Hardener II
+    50MN Quad LiF Restrained Microwarpdrive
+
+    Large S95a Scoped Remote Shield Booster
+    Large S95a Scoped Remote Shield Booster
+    Large Inductive Compact Remote Capacitor Transmitter
+    Large Inductive Compact Remote Capacitor Transmitter
+    Large Murky Compact Remote Shield Booster
+    Large Murky Compact Remote Shield Booster
+
+    Medium Core Defense Field Extender II
+    Medium Core Defense Field Extender II
+
+
+
+    Warrior II x5
+
+    Nanite Repair Paste x200
+    Standard Mindflood Booster x1
