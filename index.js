@@ -81,10 +81,10 @@ Contact Mikayla Holden in-game or on Discord.
 const copyFitFromList = (id, fit_text) => {
   navigator.clipboard.writeText(fit_text);
   $(`#${id}`).html('<i class="material-icons copied">check</i>');
-  $(`#${id}`).css({ color: '#26a69a' });
+  $(`#${id} i`).css({ color: '#26a69a' });
   setTimeout(() => {
     $(`#${id}`).html(`<i class="material-icons copy" onclick="copyFitFromList('${id}', \`${fit_text}\`)">content_paste</i>`);
-    $(`#${id}`).css({ color: 'inherit' });
+    $(`#${id} i`).css({ color: $('#color-mode').html() === '<img src="moon.svg">' ? 'white' : 'black' });
   }, 3000);
 }
 
@@ -102,6 +102,7 @@ const toggleColorMode = () => {
     $('#color-mode').html(`<img src="sun.svg"/>`);
     $('body').css({ backgroundColor: 'white', color: 'black' });
     $('.fit').css({ backgroundColor: 'white', color: '#26a69a' });
+    $('.copy').css({ color: 'black' });
     if (!fits) {
       $.get('fits.yml', data => {
         fits = jsyaml.load(data);
@@ -118,6 +119,7 @@ const toggleColorMode = () => {
     $('#color-mode').html(`<img src="moon.svg"/>`);
     $('body').css({ backgroundColor: '#303437', color: 'white' });
     $('.fit').css({ backgroundColor: '#303437', color: 'white' });
+    $('.copy').css({ color: 'white' });
     if (!fits) {
       $.get('fits.yml', data => {
         fits = jsyaml.load(data);
