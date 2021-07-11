@@ -9,3 +9,14 @@
 #fits, .fit, #loading {
 	width: 500px;
 }
+
+#color-mode {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	height: 24px;
+	width: 24px;
+}
+#color-mode:hover {
+	cursor: pointer;
+}
